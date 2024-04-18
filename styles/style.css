@@ -17,8 +17,15 @@ header{
     border-bottom: 10px;
 }
 
+#title{
+    color: #ce75c6;
+}
+
 main{
-    margin: 10px 20px 10px 40px;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .class___list{
