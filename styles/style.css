@@ -6,7 +6,12 @@
 
 
 body{
+    font-family: "Roboto Slab", serif;
     background-color: rgb(224, 241, 255);
+    background-color: #183B59;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 214, 102);
 }
 
 
@@ -43,4 +48,67 @@ main{
 .class___list li a:hover{
     text-decoration: underline;
     color: brown;
+}
+
+.title_dw{
+    padding-bottom: 30px;
+    color: azure;
+    font-size: 36px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border-radius: 50px 10px 50px 10px;
+}
+
+.content{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    margin-right: 100px;
+}
+
+.sub___list{
+    padding-top: 10px;
+    list-style: circle;
+    margin-left: 40px;
+}
+
+.details{
+    padding-bottom: 20px ;
+    list-style: none;
+}
+
+.list a{
+    color: azure ;
+}
+
+.list a:hover{
+    text-decoration: underline;
+    color: coral;
+    list-style: none;
+}
+
+.link___back{
+    display: flex;
+    justify-content: center;
+}
+
+.link___back button{
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    background-color: #327355;
+    color: aliceblue;
+    text-decoration: none;
+    border-style: solid;
+    border-right-style: dotted;
+    cursor: pointer;
 }
